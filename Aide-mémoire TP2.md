@@ -2,7 +2,7 @@
 
 
 * [Commande utile](#commande-utile) 
-* Création de la machine
+* [Création de la machine](#création-de-la-machine-virtuelle)
 * [Mise à jour machine](#mise-à-jour-machine)
 * [Interaction machine locale / machine remote](#interaction-machine-locale--machine-remote)
 * [Clé SSH](#création-des-clés-ssh)
@@ -72,6 +72,7 @@ curl IP
 
 ---
 ## Création de la machine virtuelle
+https://www.youtube.com/watch?v=ADdGZEfmNzQ&t=1075s
 
 ---
 ## Mise à jour machine

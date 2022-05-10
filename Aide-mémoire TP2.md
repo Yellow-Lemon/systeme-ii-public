@@ -2,14 +2,18 @@
 
 
 * [Commande utile](#commande-utile) 
-* [Création de la machine](#création-de-la-machine-virtuelle)
+* Création de la machine
 * [Mise à jour machine](#mise-à-jour-machine)
 * [Interaction machine locale / machine remote](#interaction-machine-locale--machine-remote)
 * [Clé SSH](#création-des-clés-ssh)
 * [Docker & Nginx](#docker--nginx)
-* [Ouvrir les ports (pour rendre le accessible)](#ouvrir-undes-ports)
+* [Ouvrir les ports](#ouvrir-undes-ports)
 * [Gestion d'utilisateurs et groupes](#gestion-utilisateurs-et-groupes)
-* Gestion des connections user à la machine
+* Reverse proxy
+* DNS
+* dav
+* ftp
+* Cron et backup
 
 
 <!--DOCKER : https://medium.com/warp9/deploying-a-static-website-in-a-docker-container-f6b7d8eed15f -->
@@ -68,7 +72,6 @@ curl IP
 
 ---
 ## Création de la machine virtuelle
-![Azure](Assets/sys2azure.png)
 
 ---
 ## Mise à jour machine
@@ -82,7 +85,6 @@ Redémarrer :
 sudo reboot
 ```
 ---
-
 ## Interaction machine locale / machine remote
 Copier de la machine locale vers la machine remote
 ```

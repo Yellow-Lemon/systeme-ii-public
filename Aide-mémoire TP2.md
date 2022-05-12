@@ -181,6 +181,7 @@ Créer un user
 sudo adduser USERNAME
 ```
 `--force-badname` pour un nom qui ne respecte pas les critères
+`--disabled-password` pour ne pas utiliser de mot de passe
 
 Rendre un user sudo :
 ```

@@ -192,5 +192,6 @@ Rendre un user sudo :
 ```
 sudo usermod -aG sudo USERNAME
 ```
+Permettre le sudo sans password : https://linuxhint.com/setup-sudo-no-password-linux/
 
 

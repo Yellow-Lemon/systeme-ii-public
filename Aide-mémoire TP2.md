@@ -121,6 +121,11 @@ Copier la clé publique (tout le contenu de `.pub`) dans le dossier `authorized_
 
 Sur la machine remote, les clés authorisées se trouvent à : `~/.ssh/authorized_keys`
 
+```
+chmod 700 /home/username/.ssh
+chmod 600 /home/username/.ssh/authorized_keys
+```
+
 Pour tester, se reconnecter à la machine :
 ```
 ssh USERNAME@LOCALHOST
@@ -180,7 +185,7 @@ Créer un user
 ```
 sudo adduser USERNAME
 ```
-`--force-badname` pour un nom qui ne respecte pas les critères
+`--force-badname` pour un nom qui ne respecte pas les critères\
 `--disabled-password` pour ne pas utiliser de mot de passe
 
 Rendre un user sudo :
